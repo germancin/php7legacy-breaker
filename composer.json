@@ -3,8 +3,8 @@
     "license": "MIT",
     "require": {},
     "autoload": {
-                    "classmap": [
-                      "Application/classes"
-                    ]
+                    "psr-4": {
+                               "App\\":"Application/classes/"
+                             }
                 }
 }
