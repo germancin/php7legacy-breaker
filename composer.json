@@ -1,0 +1,10 @@
+{
+    "name": "root/workspace",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+                    "classmap": [
+                      "Application/classes"
+                    ]
+                }
+}
