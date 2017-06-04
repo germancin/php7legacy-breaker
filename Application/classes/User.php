@@ -1,10 +1,9 @@
 <?php
 namespace App;
 
-class User 
-{
+class User {
     public function __construct()
     {
-        echo "hello, i am a page.";
+        echo "Hi I am User Method called with aoutoloader";
     }
 }
