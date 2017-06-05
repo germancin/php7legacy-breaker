@@ -14,6 +14,5 @@ namespace App;
     {
         return $this->user->getNameUser();
     }
-
  }
 ?>

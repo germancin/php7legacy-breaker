@@ -10,5 +10,4 @@ $user = new User();
 $registration = new Registration($user);
 
 echo $registration->registerUser();
-
 ?>
