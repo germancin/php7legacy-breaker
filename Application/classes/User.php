@@ -2,8 +2,10 @@
 namespace App;
 
 class User {
-    public function __construct()
+
+    public function getNameUser()
     {
-        echo "Hi I am User Method called with aoutoloader";
+        return 'german G';
+
     }
 }
