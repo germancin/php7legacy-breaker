@@ -16,5 +16,4 @@ array_filter($filesArr, function($file) {
 
 var_dump($res);
 
-
 ?>
