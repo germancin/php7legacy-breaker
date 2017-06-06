@@ -176,5 +176,135 @@ print_r($intersect);  // [2 => 3, 3 => 4]
 
 
 
+/****************************************************/
+echo "<br/><br/>";
+echo "<h2>Generating Arrays</h2>"; 
+echo "To generate an array with a given size and the same value, use array_fill():";
+
+?>
+
+<xmp>
+$bind = array_fill(0, 5, '?');
+print_r($bind); // ['?', '?', '?', '?', '?']
+</xmp>
+
+<?php
+$date = new DateTime('2000-01-01'); 
+echo $date->format('Y-m-d H:i:s');
+$cont = 2;
+$bind = array_fill(0, 5, 'hello');
+var_dump($bind); // ['?', '?', '?', '?', '?']
+
+?>
 
 
+<xmp>
+To generate an array with a range in of keys and values, like day hours or letters, use range():
+
+$letters = range('a', 'z');
+print_r($letters); // ['a', 'b', ..., 'z']
+
+$hours = range(0, 23);
+print_r($hours); // [0, 1, 2, ..., 23]	
+
+
+
+To get a part of an array—for example, just the first three elements—use array_slice():
+
+$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$top = array_slice($numbers, 0, 3);
+print_r($top); // [1, 2, 3]	
+</xmp>
+
+
+<br/><br/>
+
+<xmp>
+	
+Sorting Arrays
+
+It is good to remember that every sorting function in PHP works with arrays by a reference and returns true on success or false on failure. There's a basic sorting function called sort(), and it sorts values in ascending order without preserving keys. The sorting function can be prepended by the following letters:
+
+a, sort preserving keys
+k, sort by keys
+r, sort in reverse/descending order
+u, sort with a user function
+You can see the combinations of these letters in the following table:	
+	
+	
+</xmp>
+
+<table style="width:100%; border: 1px solid grey;"><tbody>
+<tr>
+<td></td>
+<td>a</td>
+<td>k</td>
+<td>r</td>
+<td>u</td>
+</tr>
+<tr>
+<td>a</td>
+<td><a href="http://php.net/manual/en/function.asort.php" target="_self">asort</a></td>
+<td><br></td>
+<td><a href="http://php.net/manual/en/function.arsort.php" target="_self">arsort</a></td>
+<td><a href="http://php.net/manual/en/function.uasort.php" target="_self">uasort</a></td>
+</tr>
+<tr>
+<td>k</td>
+<td></td>
+<td><a href="http://php.net/manual/en/function.ksort.php" target="_self">ksort</a></td>
+<td><a href="http://php.net/manual/en/function.krsort.php" target="_self">krsort</a></td>
+<td></td>
+</tr>
+<tr>
+<td>r</td>
+<td><a href="http://php.net/manual/en/function.arsort.php" target="_self">arsort</a></td>
+<td><a href="http://php.net/manual/en/function.krsort.php" target="_self">krsort</a></td>
+<td><a href="http://php.net/manual/en/function.rsort.php" target="_self">rsort</a></td>
+<td></td>
+</tr>
+<tr>
+<td>u</td>
+<td><a href="http://php.net/manual/en/function.uasort.php" target="_self">uasort</a></td>
+<td><br></td>
+<td></td>
+<td><a href="http://php.net/manual/en/function.usort.php" target="_self">usort</a></td>
+</tr>
+</tbody></table>
+<br/><br/>
+
+
+<xmp>
+
+It is easy to use array_sum() and array_map() to calculate the sum of order in a few rows:
+
+$order = [
+		    ['product_id' => 1, 'price' => 20, 'count' => 1],
+		    ['product_id' => 2, 'price' => 50, 'count' => 2],
+		    ['product_id' => 2, 'price' => 5, 'count' => 3],
+		 ];
+ 
+$sum = array_sum(array_map(function($product_row) {
+    return $product_row['price'] * $product_row['count'];
+}, $order));
+ 
+print_r($sum); // 250	
+	
+</xmp>
+
+<?php
+$order = [
+		    ['product_id' => 1, 'price' => 20, 'count' => 1],
+		    ['product_id' => 2, 'price' => 50, 'count' => 2],
+		    ['product_id' => 2, 'price' => 5, 'count' => 3],
+		 ];
+ 
+$sum = array_sum(array_map(function($product_row) {
+    return $product_row['price'] * $product_row['count'];
+}, $order));
+ 
+print_r($sum); // 250	
+
+?>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
