@@ -8,4 +8,14 @@ class User {
         return 'german G';
 
     }
+    
+    public function getEmailsList()
+    {
+        
+        return ['german@gmail.com', 'carlos@carlitos.com', 'gabriela@german.com'];    
+        
+    }
+    
+
+
 }
