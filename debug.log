@@ -1,0 +1,175 @@
+setDefaultFactory n\ Send to loop n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ flatMap n\ subscribe n\ Send to loop n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ flatMap 2017-07-30 06:37:21 n/ setDefaultFactory 2017-07-30 06:42:04 
+ Send to loop 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ flatMap 2017-07-30 06:42:04 
+ subscribe 2017-07-30 06:42:04 
+ setDefaultFactory 2017-07-30 06:43:29 
+ Send to loop 
+ flatMap 2017-07-30 06:43:29 
+ subscribe 2017-07-30 06:43:29 
+
+
+ flatMap 2017-07-30 06:43:29 
+ subscribe 2017-07-30 06:43:29 
+
+
+ setDefaultFactory 2017-07-30 06:43:54 
+ Send to loop 
+ flatMap 2017-07-30 06:43:54 
+ subscribe 2017-07-30 06:43:54 
+
+
+ flatMap 2017-07-30 06:43:54 
+ subscribe 2017-07-30 06:43:54 
+
+
+ setDefaultFactory 2017-07-30 06:44:13 
+ Send to loop 
+ flatMap 2017-07-30 06:44:13 
+ subscribe 2017-07-30 06:44:13 
+
+
+ flatMap 2017-07-30 06:44:13 
+ subscribe 2017-07-30 06:44:13 
+
+
+ setDefaultFactory 2017-07-30 06:45:26 
+ Send to loop 
+ flatMap 2017-07-30 06:45:26 
+ subscribe 2017-07-30 06:45:26 
+
+
+ flatMap 2017-07-30 06:45:26 
+ subscribe 2017-07-30 06:45:26 
+
+
+ setDefaultFactory 2017-07-30 06:45:52 
+ Send to loop 
+ flatMap 2017-07-30 06:45:52 
+ subscribe 2017-07-30 06:45:52 
+
+
+ flatMap 2017-07-30 06:45:52 
+ subscribe 2017-07-30 06:45:52 
+
+
+ setDefaultFactory 06:48:08 
+ Send to loop 
+ flatMap 06:48:08 
+ subscribe 06:48:08 
+
+
+ flatMap 06:48:08 
+ subscribe 06:48:08 
+
+
+ setDefaultFactory 2017-07-30 06:49:35.170979 
+ Send to loop 
+ flatMap 2017-07-30 06:49:35.170979 
+ subscribe 2017-07-30 06:49:35.170979 
+
+
+ flatMap 2017-07-30 06:49:35.170979 
+ subscribe 2017-07-30 06:49:35.170979 
+
+
+ setDefaultFactory {date('H:i:s')} 
+ Send to loop 
+ flatMap 06:53:14 
+ subscribe 06:53:14 
+
+
+ flatMap 06:53:14 
+ subscribe 06:53:14 
+
+
+ setDefaultFactory date('H:i:s') 
+ Send to loop 
+ flatMap 06:53:52 
+ subscribe 06:53:52 
+
+
+ flatMap 06:53:52 
+ subscribe 06:53:52 
+
+
+ setDefaultFactory 06:54:12 
+ Send to loop 
+ flatMap 06:54:12 
+ subscribe 06:54:12 
+
+
+ flatMap 06:54:12 
+ subscribe 06:54:12 
+
+
+ setDefaultFactory 06:54:49 
+ Send to loop 
+ flatMap 06:54:54 
+ subscribe 06:54:54 
+
+
+ flatMap 06:54:59 
+ subscribe 06:54:59 
+
+
+ setDefaultFactory 06:57:23 
+ Send to loop 
+ flatMap 06:57:28 
+ subscribe 06:57:29 
+
+
+ flatMap 06:57:33 
+ subscribe 06:57:34 
+
+
+ setDefaultFactory 06:57:57 
+ Send to loop 
+ flatMap 06:58:02 
+ subscribe 06:58:03 
+
+
+ flatMap 06:58:08 
+ subscribe 06:58:08 
+
+
+ setDefaultFactory 06:59:45 
+
+ Send to loop  06:59:46 
+ flatMap 06:59:51 
+ subscribe 06:59:51 
+
+
+ flatMap 06:59:56 
+ subscribe 06:59:56 
+
+
+ setDefaultFactory 07:00:04 
+
+ Send to loop  07:00:04 
+ flatMap 07:00:09 
+ subscribe 07:00:09 
+
+
+ flatMap 07:00:14 
+ subscribe 07:00:14 
+
+
+ 

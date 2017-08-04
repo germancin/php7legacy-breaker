@@ -1,8 +1,8 @@
 <?php
 
-require_once "vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
-$filesArr = scandir('/home/ubuntu/workspace');
+$filesArr = scandir('/var/www/public/webroot');
 
 array_filter($filesArr, function($file) {
 
@@ -14,7 +14,6 @@ array_filter($filesArr, function($file) {
 			    
 });
 
-var_dump($res);
 
 echo "<br/>*******************************************************<br/>";
 
