@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 error_reporting( E_ALL );
-require_once "vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
 use App\User;
 
